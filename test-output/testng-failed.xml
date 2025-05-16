@@ -5,8 +5,9 @@
     <classes>
       <class name="SmartBuyWebsiteTest.SmartBuyWebsiteTest.AppTest">
         <methods>
-          <include name="RegisterForm"/>
+          <include name="tearDown"/>
           <include name="Setup"/>
+          <include name="DeleteProductDatabase"/>
         </methods>
       </class> <!-- SmartBuyWebsiteTest.SmartBuyWebsiteTest.AppTest -->
     </classes>

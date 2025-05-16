@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-16T21:22:26 GMT+03:00" name="Default suite" finished-at="2025-05-16T21:22:30 GMT+03:00" duration-ms="3440">
+  <suite started-at="2025-05-17T01:11:00 GMT+03:00" name="Default suite" finished-at="2025-05-17T01:11:04 GMT+03:00" duration-ms="3184">
     <groups>
     </groups>
-    <test started-at="2025-05-16T21:22:26 GMT+03:00" name="Default test" finished-at="2025-05-16T21:22:30 GMT+03:00" duration-ms="3440">
+    <test started-at="2025-05-17T01:11:00 GMT+03:00" name="Default test" finished-at="2025-05-17T01:11:04 GMT+03:00" duration-ms="3184">
       <class name="SmartBuyWebsiteTest.SmartBuyWebsiteTest.AppTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:SmartBuyWebsiteTest.SmartBuyWebsiteTest.AppTest@2f05be7f]" started-at="2025-05-16T21:22:26 GMT+03:00" name="Setup" finished-at="2025-05-16T21:22:29 GMT+03:00" duration-ms="2882" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:SmartBuyWebsiteTest.SmartBuyWebsiteTest.AppTest@52de51b6]" started-at="2025-05-17T01:11:00 GMT+03:00" name="Setup" finished-at="2025-05-17T01:11:03 GMT+03:00" duration-ms="2709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="RegisterForm()[pri:1, instance:SmartBuyWebsiteTest.SmartBuyWebsiteTest.AppTest@2f05be7f]" started-at="2025-05-16T21:22:29 GMT+03:00" name="RegisterForm" finished-at="2025-05-16T21:22:30 GMT+03:00" duration-ms="514" status="PASS">
+        <test-method signature="ReadDatabase()[pri:3, instance:SmartBuyWebsiteTest.SmartBuyWebsiteTest.AppTest@52de51b6]" started-at="2025-05-17T01:11:03 GMT+03:00" name="ReadDatabase" finished-at="2025-05-17T01:11:03 GMT+03:00" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadDatabase -->
+        <test-method signature="DeleteProductDatabase()[pri:4, instance:SmartBuyWebsiteTest.SmartBuyWebsiteTest.AppTest@52de51b6]" started-at="2025-05-17T01:11:03 GMT+03:00" name="DeleteProductDatabase" finished-at="2025-05-17T01:11:03 GMT+03:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProductDatabase -->
+        <test-method signature="RegisterForm()[pri:5, instance:SmartBuyWebsiteTest.SmartBuyWebsiteTest.AppTest@52de51b6]" started-at="2025-05-17T01:11:03 GMT+03:00" name="RegisterForm" finished-at="2025-05-17T01:11:03 GMT+03:00" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SmartBuyWebsiteTest.SmartBuyWebsiteTest.AppTest@52de51b6]" started-at="2025-05-17T01:11:03 GMT+03:00" name="tearDown" finished-at="2025-05-17T01:11:04 GMT+03:00" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- SmartBuyWebsiteTest.SmartBuyWebsiteTest.AppTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
